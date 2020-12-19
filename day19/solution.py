@@ -45,6 +45,7 @@ with open('input.txt') as f:
     
     expand_rules('0', rules_map, expanded_map)
 
+# Based on updated rules 0 = n42s followed by m31s where n > m
 def part2_match(exp42, exp31, msg):
     msg_a, msg_b = copy.copy(msg), copy.copy(msg)
     num42 = 0
